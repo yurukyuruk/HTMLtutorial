@@ -1,0 +1,498 @@
+html {
+    font-size: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100rem;
+    background-color: darkcyan;
+    background-image: url(photos/background-image.svg), url(photos/background-image.svg);
+    background-size: 300px;
+    background-repeat: repeat-y;
+    background-position-x: -250px, 1000px;
+    margin-left: 250px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+p, li {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+div.border-box-1 {
+    width: calc(90rem + 25px);
+    margin-left: 40px;
+    height: 10px;
+    padding: 10px;
+    border: 3px solid rgb(65, 46, 173);
+    border-right: none;
+    border-left: none;
+    background-color: rgb(247, 245, 108);  
+  }
+
+.languages {
+    margin-top: -2.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.pl {
+    margin-left: 5px;
+}
+
+.tr {
+    margin-left: 5px;
+}
+
+div.border-box-2 {
+    width: calc(83rem + 5px);
+    margin-top: 1.6rem;
+    margin-left: 40px;
+    margin-bottom: -2rem;
+    height: 10px;
+    padding: 55px;
+    background-color: rgb(247, 136, 154); 
+    border-top: 2px dashed white;
+    border-bottom: 2px dashed white;
+}
+
+.architecture-text {
+    font-size: 3.5rem;
+    font-weight: normal;
+    font-family: "bradley hand", cursive;
+    color: rgb(65, 46, 173);
+    margin-left: 155px;
+    margin-top: -87px;
+}
+
+.web-development-text {
+    font-size: 3.5rem;
+    font-weight: normal;
+    font-family: "bradley hand", cursive;
+    color: rgb(65, 46, 173);
+    margin-left: 630px;
+    margin-top: -50px;
+}
+
+.logo {
+    margin-top: -73px;
+    margin-left: 470px;
+}
+
+div.border-box-3 {
+    width: calc(90rem + 25px);
+    margin-top: 2.4rem;
+    margin-left: 40px;
+    height: 10px;
+    padding: 10px;
+    border: 3px solid rgb(65, 46, 173);
+    border-right: none;
+    border-left: none;
+    background-color: rgb(247, 245, 108); 
+}
+
+nav.menu ul {
+    border: black;
+    border-width: 5px;
+    margin-top: -80px;
+}
+
+.menu li {
+    display: inline-flex;
+    justify-content: space-around;
+}
+.menu a {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    color: black;  
+}
+
+.menu a:link, .menu a:focus {
+    color: rgb(115, 6, 119);
+}
+
+.menu a:visited {
+        color: rgb(115, 6, 119);
+}
+
+.menu a:hover {
+    color: rgb(247, 136, 154);
+}
+
+.menu a:active {
+    color: rgb(115, 6, 119);
+}
+
+.homepage {
+    margin-right: 128.5px;
+    margin-left: 1px;
+}
+
+.about-me {
+    margin-right: 128.5px;
+}
+
+.my-services {
+    margin-right: 128.5px;
+}
+
+.projects {
+    margin-right: 128.5px;
+}
+
+.contact-me {
+
+}
+
+.line-1 {
+    border-bottom: 3px solid white;
+    opacity: 0.8;
+    margin-top: 2.2rem;
+    margin-left: 40px;
+}
+
+.main-photo {
+    margin-left: 40px;
+    width: calc(100rem - 55px);
+    height: 420px;
+    opacity: 0.9;
+}
+
+.line-2 {
+    border-bottom: 3px solid rgb(247, 136, 154);
+    margin-left: 40px;
+}
+
+.line-3 {
+    border-bottom: 3px dashed rgb(65, 46, 173);
+    margin-left: 40px;
+    margin-top: 13px;
+}
+
+.line-4 {
+    border-bottom: 3px dashed rgba(255, 255, 255, 0.5);
+    margin-left: 40px;
+    margin-top: 13px;
+}
+
+.line-5 {
+    border-bottom: 3px dashed rgb(65, 46, 173);
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.line-5a {
+    border-bottom: 3px dashed rgba(255, 255, 255, 0.5);
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: lighter;
+    font-family: "bradley hand", cursive;
+    color: white;
+    opacity: 0.8;
+    margin-top: -24.5rem;
+    margin-left: 33rem;
+}
+
+.texts {
+    margin-top: 300px;
+}
+
+.texts li {
+    display: grid;
+    grid-template-columns: repeat(500px, 1fr);
+}
+
+.line-6 {
+    border-bottom: 3px solid white;
+}
+
+
+.pic-1 {
+    grid-column: 1;
+}
+
+.text-1 {
+    grid-column: 2;
+    background-color: rgb(107, 201, 201);
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.line-7 {
+    border-bottom: 3px dashed white;
+}
+
+.line-8 {
+    border-bottom: 3px dashed white;
+    margin-top: 5rem;
+}
+
+
+.pic-2 {
+    grid-column: 2;
+}
+
+.text-2 {
+    grid-column: 1;
+    background-color: rgb(107, 201, 201);
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.line-9 {
+    border-bottom: 3px dashed white;
+}
+
+.line-10 {
+    border-bottom: 3px dashed white;
+    margin-top: 5rem;
+}
+
+.pic-3 {
+    grid-column: 1;
+}
+
+.text-3 {
+    grid-column: 2;
+    background-color: rgb(107, 201, 201);
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.line-11 {
+    border-bottom: 3px solid white;
+}
+
+hr {
+    border-style: none;
+}
+
+.line-12 {
+    border-bottom: 3px solid white;
+    opacity: 0.5;
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.line-13 {
+    border-bottom: 3px solid white;
+    opacity: 0.5;
+    margin-left: 40px;
+}
+
+.line-14 {
+    border-bottom: 3px solid white;
+    opacity: 0.5;
+    margin-left: 40px;
+    margin-top: -3px;
+}
+
+.line-15 {
+    border-bottom: 3px solid white;
+    opacity: 0.5;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+iframe {
+    width: calc(100rem - 55px);
+    margin-left: 40px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+    column-gap: 40px;
+    row-gap: 0px;
+}
+
+.form {
+    grid-column: 1;
+    grid-row: span 3;
+}
+
+.address {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: rgb(132, 196, 196);
+    margin-top: -3px;
+    padding-bottom: 9px;
+}
+
+.working-hours {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgb(132, 196, 196);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    color: rgb(148, 218, 218);
+    margin-top: -18px;
+    margin-bottom: -27px;
+    padding-left: 40px;
+    
+}
+
+.social-media {
+    display: inline;
+    opacity: 0.6;
+}
+
+.form h2 {
+    margin-left: 40px;
+    color: rgb(1, 70, 70);
+    border-top: 3px dotted rgb(132, 196, 196);
+    width: calc(100% - 35px);
+}
+
+input[type="text"], input[type="tel"], input[type="email"], textarea[name="message"] {
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color:rgb(1, 94, 94);
+    color: white;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: none;
+    opacity: 0.9;
+    margin-top: -20px;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+}
+
+::placeholder {
+    font-family: Helvetica, Arial, sans-serif;
+    color: darkcyan;
+} 
+
+textarea[name="message"] {
+    margin-bottom: -6px;
+}
+
+.address h3 {
+    font-size: 2rem;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: rgb(148, 218, 218);
+    margin-left: 40px;
+    background-color: rgb(1, 70, 70);
+}
+
+.address li {
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: white;
+    line-height: 2;
+}
+
+.address strong {
+    color: rgb(1, 70, 70);
+}
+
+.address a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    color: white;
+    margin-left: 15px;
+}
+
+.address a:hover {
+    color: rgb(1, 70, 70);
+}
+
+.philadelphia {
+    margin-left: 65px;
+}
+
+.working-hours h4{
+    font-size: 1.8rem;
+    padding-top: 3px;
+    background-color: rgb(1, 70, 70);
+    margin-top: 0px;
+}
+
+.working-hours p {
+    color: rgb(1, 70, 70);
+    margin-bottom: -15px;
+}
+
+.working-hours strong {
+    color: white;
+}
+
+.social-media ul {
+    display: flex;
+    margin-top: 60px;
+}
+
+.facebook {
+   
+}
+
+.twitter {
+    margin-left: 140px;
+}
+
+.youtube {
+    margin-left: 140px;
+}
+
+.line-16 {
+    border-bottom: 3px solid rgb(1, 70, 70);
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.line-17 {
+    border-bottom: 3px solid rgb(1, 70, 70);
+}
+
+footer {
+    margin-left: 40px;
+}
+
+footer p {
+    margin-left: 340px;
+    margin-top: -5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
