@@ -1,0 +1,12 @@
+h2 {
+    color: aqua;
+}
+p {
+    color: blueviolet;
+}
+li {
+    list-style-type: none;
+}
+a:hover {
+    text-decoration: none;
+}
