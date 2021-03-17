@@ -17,11 +17,10 @@ html {
     font-size: 10px;
     font-family: Helvetica, Arial, sans-serif;
   
-    background-image: url(photos/Untitled.svg);
-    background-size: 154rem;
-    background-color: darkcyan;
+    background-image: url(photos/background-color.svg), url(photos/background-image.svg) ;
+    background-size: 100rem, 38rem;
     background-position-x: center;
-    background-repeat: repeat-y;
+    background-repeat: repeat-y, repeat;
 
     display: flex;
     justify-content: center;
