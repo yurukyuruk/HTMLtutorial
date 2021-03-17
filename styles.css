@@ -3,6 +3,13 @@
         flex-direction: column;
     }
 }
+
+@media print {
+    body {
+        font-size: 12pt;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
@@ -11,8 +18,7 @@ html {
     font-family: Helvetica, Arial, sans-serif;
   
     background-image: url(photos/Untitled.svg);
-    background-size: cover;
-    background-size: 258rem;
+    background-size: 154rem;
     background-color: darkcyan;
     background-position-x: center;
     background-repeat: repeat-y;
