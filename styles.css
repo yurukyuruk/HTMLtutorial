@@ -1,39 +1,29 @@
-@media screen (max-width: 600px) {
-    .texts li {
-        flex-direction: column;
-    }
-}
 
-@media print {
-    body {
-        font-size: 12pt;
-    }
-}
 
 * {
     box-sizing: border-box;
 }
+
 html {
     font-size: 10px;
     font-family: Helvetica, Arial, sans-serif;
-  
     background-image: url(photos/background-color.svg), url(photos/background-image.svg) ;
-    background-size: 100rem, 38rem;
+    background-size: 70vw, 38rem;
     background-position-x: center;
     background-repeat: repeat-y, repeat;
-
     display: flex;
     justify-content: center;
 }
+
  body {
-     width: 100rem;
+     width: 70vw;
  }
 
 header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100rem;
+    width: 70vw;
 }
 
 h2 {
@@ -45,49 +35,54 @@ li {
     list-style-type: none;
 }
 
+ul {
+    padding: 0;
+}
+
 p, li {
     font-size: 1.5rem;
     line-height: 1.5;
 }
 
-div.border-box-1 {
+.border-box-1 {
     border: 3px solid rgb(65, 46, 173);
     border-right: none;
     border-left: none;
     background-color: rgb(247, 245, 108);  
-    width: 100rem;
+    width: 70vw;
     height: 3.5rem;
+    margin-top: 0;
   }
 
 .languages {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    position: relative;
-    top: -0.5rem;
+    align-items: center;
+    position: relative;  
+}
 
-    
+.languages li a {
+    display: flex;  
 }
 
 .pl {
-    margin-left: 5px;
+    margin-left: 0.5rem;
 }
 
 .tr {
-    margin-left: 5px;
+    margin-left: 0.5rem;
 }
 
 div.border-box-2 {
-    width: 100rem;
+    width: 70vw;
     display: flex;
     align-items: center;
     height: 12rem;
     background-color: rgb(247, 136, 154); 
     border-top: 2px dashed white;
     border-bottom: 2px dashed white;
-    position: relative;
-    top: 1.5rem;
-   
+    margin-bottom: 0.9rem;
 }
 
 .architecture-text {
@@ -96,9 +91,7 @@ div.border-box-2 {
     font-family: "bradley hand", cursive;
     color: rgb(65, 46, 173);
     flex: 2;
-    text-align: right;
-    
-    
+    text-align: right; 
 }
 
 .web-development-text {
@@ -108,23 +101,20 @@ div.border-box-2 {
     color: rgb(65, 46, 173);
     flex: 2;
     text-align: left;
-   
 }
 
 .logo {
     flex: 2;
 }
 
-div.border-box-3 {
-    width: 100rem;
+.border-box-3 {
+    width: 70vw;
     height: 3.5rem;
-    position: relative;
-    top: 3rem;
-   
     border: 3px solid rgb(65, 46, 173);
     border-right: none;
     border-left: none;
-    background-color: rgb(247, 245, 108); 
+    background-color: rgb(247, 245, 108);
+    margin-bottom: 0.9rem;
 }
 
 nav.menu ul {
@@ -147,40 +137,12 @@ nav.menu ul {
     color: black;  
 }
 
-.menu a:link, .menu a:focus {
+.menu a:link, .menu a:focus, menu a:visited, menu a:active {
     color: rgb(115, 6, 119);
-}
-
-.menu a:visited {
-        color: rgb(115, 6, 119);
 }
 
 .menu a:hover {
     color: rgb(247, 136, 154);
-}
-
-.menu a:active {
-    color: rgb(115, 6, 119);
-}
-
-.homepage {
-   margin-left: -4rem;
-}
-
-.about-me {
-   
-}
-
-.my-services {
-    
-}
-
-.projects {
-    
-}
-
-.contact-me {
-    
 }
 
 .main {
@@ -189,60 +151,37 @@ nav.menu ul {
     flex-direction: column;
 }
 
-.line-1 {
-    border-bottom: 3px solid white;
-    opacity: 0.8;
-    width: 100rem;
-    position: relative;
-    top: 4.5rem;
-    
-}
-
 .main-photo {
-    
-    width: 100rem;
-    height: 44rem;
-    max-width: 100%;
+    border-top: 3px solid white;
+    width: 70vw;
+    object-fit: cover;
     opacity: 0.9;
-    position: relative;
-    top: 4.5rem;
-}
-
-.line-2 {
     border-bottom: 3px solid rgb(247, 136, 154);
-    width: 100rem;
-    position: relative;
-    top: 4.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .line-3 {
     border-bottom: 3px dashed rgb(65, 46, 173);
-    width: 100rem;
-    position: relative;
-    top: 6rem;
+    width: 70vw;
+    margin-bottom: 1.5rem;
 }
 
 .line-4 {
     border-bottom: 3px dashed rgba(255, 255, 255, 0.5);
-    width: 100rem;
-    position: relative;
-    top: 7.5rem;
+    width: 70vw;
+    margin-bottom: 3.5rem;
 }
 
 .line-5 {
     border-bottom: 3px dashed rgb(65, 46, 173);
-    width: 100rem;
-    position: relative;
-    top: 10.5rem;
-    
+    width: 70vw;
+    margin-bottom: 6rem;   
 }
 
 .line-5a {
     border-bottom: 3px dashed rgba(255, 255, 255, 0.5);
-    width: 100rem;
-    position: relative;
-    top: 16.5rem;
-
+    width: 70vw;
+    margin-bottom: 8rem;
 }
 
 h1 {
@@ -252,36 +191,26 @@ h1 {
     color: white;
     opacity: 0.8;
     text-align: center;
-    position: relative;
-    top: 19.5rem;
-    
-}
-
-
-.texts {
-   
+    margin: 0;
+    margin-bottom: 8rem; 
 }
 
 .texts li {
     display: flex;
     justify-content: center;
-    width: 100rem;
-    margin-left: -4rem;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .line-6 {
     border-bottom: 3px solid white;
-    width: 100rem;
-    margin-left: -4rem;
-    position: relative;
-    top: 22.5rem;
+    width: 70vw;
 }
 
-
 .pic-1 {
-    position: relative;
-    top: 22.5rem;
-    
+    flex: 1;
 }
 
 .text-1 {
@@ -289,31 +218,25 @@ h1 {
     background-color: rgb(107, 201, 201);
     padding-left: 2rem;
     padding-right: 1rem;
-    position: relative;
-    top: 22.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex: 2;
 }
 
 .line-7 {
     border-bottom: 3px dashed white;
-    width: 100rem;
-    margin-left: -4rem;
-    position: relative;
-    top: 22.5rem;
+    width: 70vw;
+    margin-bottom: 7rem;
 }
 
 .line-8 {
     border-bottom: 3px dashed white;
-    width: 100rem;
-    margin-left: -4rem;
-    position: relative;
-    top: 28rem;
-    
+    width: 70vw; 
 }
 
-
 .pic-2 {
-    position: relative;
-    top: 28rem;
+    flex: 1;
 }
 
 .text-2 {
@@ -321,30 +244,27 @@ h1 {
     background-color: rgb(107, 201, 201);
     padding-left: 2rem;
     padding-right: 1rem;
-    position: relative;
-    top: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex: 2;
 }
 
 .line-9 {
     border-bottom: 3px dashed white;
-    width: 100rem;
-    margin-left: -4rem;
-    position: relative;
-    top: 28rem;
+    width: 70vw;
+    margin-bottom: 7rem;
 }
 
 .line-10 {
     border-bottom: 3px dashed white;
-    width: 100rem;
-    margin-left: -4rem;
-    position: relative;
-    top: 33.5rem;
+    width: 70vw;
    
 }
 
 .pic-3 {
-    position: relative;
     top: 33.5rem;
+    flex: 1;
 }
 
 .text-3 {
@@ -352,16 +272,16 @@ h1 {
     background-color: rgb(107, 201, 201);
     padding-left: 2rem;
     padding-right: 1rem;
-    position: relative;
-    top: 33.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex: 2;
 }
 
 .line-11 {
     border-bottom: 3px solid white;
-    width: 100rem;
-    margin-left: -4rem;
-    position: relative;
-    top: 33.5rem;
+    width: 70vw;
+    margin-bottom: 12rem;
 }
 
 hr {
@@ -371,95 +291,80 @@ hr {
 .line-12 {
     border-bottom: 3px solid white;
     opacity: 0.5;
-    width: 100rem;
-    position: relative;
-    top: 50rem;
-    
+    width: 70vw;
+    margin-bottom: 1rem;
 }
 
 .line-13 {
     border-bottom: 3px solid white;
     opacity: 0.5;
-    width: 100rem;
-    position: relative;
-    top: 51.5rem;
-    
+    width: 70vw;
+}
+
+iframe {
+    width: 70vw;
+    margin-bottom: -0.2rem;
 }
 
 .line-14 {
     border-bottom: 3px solid white;
     opacity: 0.5;
-    width: 100rem;
-    position: relative;
-    top: 51.2rem;
+    width: 70vw;
+    margin-bottom: 1rem;
 }
 
 .line-15 {
     border-bottom: 3px solid white;
     opacity: 0.5;
-    width: 100rem;
-    position: relative;
-    top: 52.7rem;
-    
-}
-
-iframe {
-    width: 100rem;
-    position: relative;
-    top: 51.5rem;
-    
+    width: 70vw;
+    margin-bottom: 6rem;
 }
 
 .contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
+    display: flex;
+    flex-wrap: wrap; 
     column-gap: 4rem;
-    row-gap: 0;
-    position: relative;
-    top: 59rem;
+    margin-bottom: 6rem;
 }
 
 .form {
-    grid-column: 1;
-    grid-row: span 3;
-    margin-left: -4rem;
+   width: calc(35vw - 2rem);
+   
+}
+
+.contact-details {
+   width: 30vw;
+   display: flex;
+   
 }
 
 .address {
-    grid-column: 2;
-    grid-row: 1;
-    background-color: rgb(132, 196, 196);
     
-    padding-bottom: 0.5rem;
+    background-color: rgb(132, 196, 196);
+    width: calc(35vw - 2rem);
+    padding-bottom: 0.9rem;
+    margin-bottom: 1.5rem;
 }
 
-.working-hours {
-    grid-column: 2;
-    grid-row: 2;
+.working-hours { 
     background-color: rgb(132, 196, 196);
     font-family: Helvetica, Arial, sans-serif;
     font-size: 2rem;
     color: rgb(148, 218, 218);
-    padding-left: 40px;
-    margin-top: -2.8rem;
-
-    
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .social-media {
-    display: inline;
+    display: flex;
     opacity: 0.6;
-    position: relative;
-    top: 1rem;
+    padding-top: 0.7rem;
 }
 
 .form h2 {
-    
+    margin-top: 0;
     color: rgb(1, 70, 70);
-    border-top: 3px dotted rgb(132, 196, 196);
-    margin-left: 4rem;
-    
+    border-top: 3px dotted rgb(132, 196, 196); 
 }
 
 input[type="text"], input[type="tel"], input[type="email"], textarea[name="message"] {
@@ -469,13 +374,12 @@ input[type="text"], input[type="tel"], input[type="email"], textarea[name="messa
 input[type="submit"] {
     background-color:rgb(1, 94, 94);
     color: white;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border-style: none;
     opacity: 0.9;
-    
 }
 
 input[type="submit"]:hover {
@@ -487,17 +391,14 @@ input[type="submit"]:hover {
     color: darkcyan;
 } 
 
-textarea[name="message"] {
-    
-}
-
 .address h3 {
     font-size: 2rem;
     font-family: Helvetica, Arial, sans-serif;
     font-style: normal;
     color: rgb(148, 218, 218);
-    
     background-color: rgb(1, 70, 70);
+    margin-top: 0;
+    padding-left: 1rem;
 }
 
 .address li {
@@ -505,6 +406,7 @@ textarea[name="message"] {
     font-style: normal;
     color: white;
     line-height: 2;
+    padding-left: 1rem;
 }
 
 .address strong {
@@ -515,8 +417,7 @@ textarea[name="message"] {
     font-family: Helvetica, Arial, sans-serif;
     font-style: normal;
     color: white;
-    margin-left: 1.5rem;
-    
+    margin-left: 1.5rem;  
 }
 
 .address a:hover {
@@ -530,64 +431,93 @@ textarea[name="message"] {
 .working-hours h4{
     font-size: 1.8rem;
     padding-top: 0.3rem;
+    padding-left: 1rem;
     background-color: rgb(1, 70, 70);
-    margin-left: -4rem;
     margin-top: 0;
 }
 
 .working-hours p {
     color: rgb(1, 70, 70);
-    margin-bottom: -1rem;
-    
+    padding-left: 1rem;
 }
 
 .working-hours strong {
     color: white;
 }
 
-.social-media ul {
+.social-media li {
     display: flex;
     justify-content: space-around;
-    margin-left: -4rem;
-}
-
-.facebook {
-   
-}
-
-.twitter {
-    
-}
-
-.youtube {
-    
+    width: 100%;  
 }
 
 .line-16 {
     border-bottom: 3px solid rgb(1, 70, 70);
-    width: 100rem;
-    position: relative;
-    top: 65rem;
-    
+    width: 70vw; 
+    margin-bottom: 1rem;  
 }
 
 .line-17 {
     border-bottom: 3px solid rgb(1, 70, 70);
-    width: 100rem;
-    position: relative;
-    top: 66rem;
-}
-
-footer {
-  
+    width: 70vw;
 }
 
 footer p {
-   position: relative;
-   top: 64rem;
    text-align: center;
+   color: rgb(1, 70, 70);
+   margin: 0;
 }
 
+@media (max-width: 1150px) {
+    body {
+        background-color: darkcyan;
+        background-image: none;    
+    }
+    .texts li { 
+        flex-direction: column;
+    }
+    .pic-1 {
+        width: 100%;
+    }
+    .pic-2 {
+        width: 100%;
+        order: -1;
+    }
+    .pic-3 {
+        width: 100%;
+    }
+    .form {
+        width: 70vw; 
+     }
+     .contact-details {
+        width: 70vw; 
+     }
+     .address {
+        width: 70vw;
+    }
+    .contact {
+        margin-bottom: 3rem;
+    }
+    .working-hours { 
+        margin-bottom: -0.3rem;
+    }
+}
+
+@media (max-width: 1270px) {
+    .architecture-text {
+        font-size: 3rem;
+    }
+    .web-development-text {
+        font-size: 3rem;
+    }
+}
+
+
+@media print {
+    body {
+        font-size: 12pt;
+    }
+}
 
 
 
