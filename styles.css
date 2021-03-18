@@ -74,7 +74,7 @@ p, li {
     margin-left: 0.5rem;
 }
 
-div.border-box-2 {
+.border-box-2 {
     width: 70vw;
     display: flex;
     align-items: center;
@@ -117,15 +117,15 @@ div.border-box-2 {
     margin-bottom: 0.9rem;
 }
 
-nav.menu ul {
+.menu ul {
     border: black;
     border-width: 5px;
     display: flex;
     justify-content: space-between;
     position: relative;
     top: -0.5rem;
-    
 }
+
 .menu a {
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -512,6 +512,23 @@ footer p {
     }
 }
 
+@media (max-width: 660px) {
+    .border-box-2 {
+        flex-wrap: wrap;
+    }
+    .architecture-text {
+        margin-top: -4rem;
+        flex: 2;
+    }
+    .web-development-text {
+        margin-top: -6rem;
+        flex: 2;
+    }
+    .logo {
+        margin-top: 0.5rem;
+        flex: 1;
+    }
+}
 
 @media print {
     body {
