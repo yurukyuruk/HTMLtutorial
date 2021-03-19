@@ -516,25 +516,25 @@ footer p {
     body {
         background-color: darkcyan;
         background-size: 100vw;
-        width: 90vw;
+        width: 100vw;
     }
     .border-box-1, .border-box-2, .border-box-3 {
-        width: 90vw;
+        width: 100vw;
     }
     .main-photo {
-        width: 90vw;
+        width: 100vw;
     }
     .line-3, .line-4, .line-5, .line-5a, .line-6, .line-7, .line-8, .line-9, .line-10, .line-11, .line-12, .line-13, .line-14, .line-15, .line-16, .line-17 {
-        width: 90vw;
+        width: 100vw;
     }
     .pic-1, .text-1, .pic-2, .text-2, .pic-3, .text-3 {
-        width: 90vw;
+        width: 100vw;
     }
     iframe {
-        width: 90vw;
+        width: 100vw;
     }
     .form, .address, .working-hours, .social-media {
-        width: 90vw;
+        width: 100vw;
     }
    
 }
