@@ -154,7 +154,7 @@ p, li {
 .main-photo {
     border-top: 3px solid white;
     width: 70vw;
-    max-height: 100%;
+    height: calc(70vw / 2);
     object-fit: cover;
     opacity: 0.9;
     border-bottom: 3px solid rgb(247, 136, 154);
@@ -526,6 +526,7 @@ footer p {
     }
     .main-photo {
         width: 98vw;
+        height: calc(98vw / 1.5);
     }
     .line-3, .line-4, .line-5, .line-5a, .line-6, .line-7, .line-8, .line-9, .line-10, .line-11, .line-12, .line-13, .line-14, .line-15, .line-16, .line-17 {
         width: 98vw;
