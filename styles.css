@@ -564,6 +564,21 @@ footer p {
         margin-top: 0.5rem;
         flex: 1;
     }
+    .philadelphia {
+        margin-left: 1rem;
+    }
+    .main-photo {
+        margin-bottom: 0.5rem;
+    }
+    .line-3 {
+        margin-bottom: 0.5rem;
+    }
+    .line-4 {
+        margin-bottom: 1rem;
+    }
+    .line-5 {
+        margin-bottom: 2rem;   
+    }
 }
 @media print {
     body {
