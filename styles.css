@@ -154,6 +154,7 @@ p, li {
 .main-photo {
     border-top: 3px solid white;
     width: 70vw;
+    max-height: 100%;
     object-fit: cover;
     opacity: 0.9;
     border-bottom: 3px solid rgb(247, 136, 154);
@@ -513,9 +514,11 @@ footer p {
 }
 
 @media (max-width: 660px) {
+    html {
+        background-image: none;
+        background-color: darkcyan; 
+    }
     body {
-        background-color: darkcyan;
-        background-size: 98vw;
         width: 98vw;
     }
     .border-box-1, .border-box-2, .border-box-3 {
@@ -539,7 +542,11 @@ footer p {
    
 }
 
-@media (max-width: 514px) {
+@media (max-width: 472px) {
+    html {
+        background-image: none;
+        background-color: darkcyan; 
+    }
     .border-box-2 {
         flex-wrap: wrap;
     }
