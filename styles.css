@@ -515,26 +515,26 @@ footer p {
 @media (max-width: 660px) {
     body {
         background-color: darkcyan;
-        background-size: 100vw;
-        width: 100vw;
+        background-size: 98vw;
+        width: 98vw;
     }
     .border-box-1, .border-box-2, .border-box-3 {
-        width: 100vw;
+        width: 98vw;
     }
     .main-photo {
-        width: 100vw;
+        width: 98vw;
     }
     .line-3, .line-4, .line-5, .line-5a, .line-6, .line-7, .line-8, .line-9, .line-10, .line-11, .line-12, .line-13, .line-14, .line-15, .line-16, .line-17 {
-        width: 100vw;
+        width: 98vw;
     }
     .pic-1, .text-1, .pic-2, .text-2, .pic-3, .text-3 {
-        width: 100vw;
+        width: 98vw;
     }
     iframe {
-        width: 100vw;
+        width: 98vw;
     }
     .form, .address, .working-hours, .social-media {
-        width: 100vw;
+        width: 98vw;
     }
    
 }
