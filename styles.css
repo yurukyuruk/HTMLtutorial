@@ -565,7 +565,8 @@ footer p {
         flex: 1;
     }
     .philadelphia {
-        margin-left: 1rem;
+        margin-left: 0;
+        display: inline;
     }
     .main-photo {
         margin-bottom: 0.5rem;
